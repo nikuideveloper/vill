@@ -1,0 +1,54 @@
+pre                             { margin-bottom:20px; }
+body{
+padding:0%;
+margin:0%;
+color: white;
+}
+.banner{
+	background:url(../images/banner.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	min-height:700px;
+}
+/* form styling */
+#form-container                { background:#2f2f2f; margin-bottom:20px;
+    border-radius:5px; }
+#form-container .page-header   { background:#D3564A; margin:0; padding:5px; 
+    border-top-left-radius:5px; border-top-right-radius:5px; }
+#form-container .register-page-header {background:#D3564A; margin:0;
+    border-top-left-radius:5px; border-top-right-radius:5px; }
+
+.submitStyle{
+margin-top: 10%;
+}
+
+#signup-form            { position:relative; min-height:300px; overflow:hidden; padding:30px; }
+#register-form            { position:relative; min-height:50px; overflow:hidden; padding-bottom: 6%; }
+#login-form {
+    position: relative;
+    min-height: 250px;
+    overflow: hidden;
+    padding: 15% 5% 0% 5%;
+}
+#forgot-form{
+	position: relative;
+    min-height: 200px;
+    overflow: hidden;
+    padding: 30px;
+
+}
+.red{
+color:red;
+}
+.logo {
+	float: left;
+}
+.logo a {
+	display: block;
+}
+.forgotPwd{
+	cursor:pointer;
+	text-decoration:underline;
+	font-weight:bold;
+	font-size:13px;
+}
+
